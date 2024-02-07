@@ -13,26 +13,30 @@ export default function Home() {
 					Website em produção
 				</div>
 			</div>
-			<h2 className='scroll-m-20 pb-2 text-3xl font-semibold tracking-tight first:mt-0'>
-				Desenvolvedor web, especializado em web motion e micro interações.
-			</h2>
-			<p className='leading-7'>
-				Um programador e designer de alto nível pronto para começar o seu
-				projeto o mais rápido possível, por um preço que cabe no seu bolso.
-			</p>
-			<div className='flex flex-col sm:flex-row gap-3 mt-3'>
-				<Button asChild className='rounded-full'>
-					<a href='https://api.whatsapp.com/send?phone=5598991641170'>
-						<MessageCircleMore className='mr-2 h-6 w-6' />
-						Enviar mensagem
-					</a>
-				</Button>
-				<Button asChild className='rounded-full' variant={"outline"}>
-					<a href='https://calendly.com/gxldemar/gildemardev-reuniao'>
-						<CalendarClock className='mr-2 h-6 w-6' />
-						Marcar uma chamada
-					</a>
-				</Button>
+
+			{/* Div que limita o tamanho do container de texto */}
+			<div className='max-w-xl'>
+				<h2 className='scroll-m-20 pb-2 text-3xl font-semibold tracking-tight first:mt-0'>
+					Desenvolvedor web, especializado em web motion e micro interações.
+				</h2>
+				<p className='leading-7'>
+					Um programador e designer de alto nível pronto para começar o seu
+					projeto o mais rápido possível, por um preço que cabe no seu bolso.
+				</p>
+				<div className='flex flex-col sm:flex-row gap-3 mt-3'>
+					<Button asChild className='rounded-full'>
+						<a href='https://api.whatsapp.com/send?phone=5598991641170'>
+							<MessageCircleMore className='mr-2 h-6 w-6' />
+							Enviar mensagem
+						</a>
+					</Button>
+					<Button asChild className='rounded-full' variant={"outline"}>
+						<a href='https://calendly.com/gxldemar/gildemardev-reuniao'>
+							<CalendarClock className='mr-2 h-6 w-6' />
+							Marcar uma chamada
+						</a>
+					</Button>
+				</div>
 			</div>
 		</main>
 	);
