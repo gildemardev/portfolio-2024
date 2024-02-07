@@ -26,7 +26,7 @@ export default function RootLayout({
 					"min-h-screen bg-background font-sans antialiased",
 					fontSans.variable
 				)}>
-				<Navbar />
+				{/* <Navbar /> TODO: Terminar a sidebar */}
 				{children}
 			</body>
 		</html>
