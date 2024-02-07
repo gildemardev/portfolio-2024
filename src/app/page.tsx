@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { CalendarClock, MessageCircleMore } from "lucide-react";
+import { CalendarClock, Cog, MessageCircleMore } from "lucide-react";
 
 export default function Home() {
 	return (
@@ -9,6 +9,7 @@ export default function Home() {
 					className='bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-blue-700 via-neutral-800 to-zinc-900
           inline-flex px-4 py-1 rounded-full mb-2 border border-gray-600 shadow-lg
           text-white font-semibold antialiased'>
+					<Cog className='mr-2 animate-spin-slow' />
 					Website em produção
 				</div>
 			</div>
