@@ -19,10 +19,10 @@ const config = {
       },
     },
     extend: {
-      extend: {
         fontFamily: {
+          cascadia: ["Cascadia Code", "sans-serif"],
+          'cascadia-italic': ["Cascadia Code Italic", "sans-serif"],
           sans: ["var(--font-sans)", ...fontFamily.sans],
-        },
       },
       colors: {
         border: "hsl(var(--border))",
